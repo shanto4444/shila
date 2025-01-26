@@ -6,7 +6,7 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body class="bg-[#2b2d33]">
-    <nav class="bg-[#2b2d33] shadow-xl">
+    <nav class="bg-[#2b2d33] shadow-xl sticky top-0 z-10">
       <div class="container mx-auto">
         <div class="sm:flex justify-between py-5 items-center">
           <div class="text-center mb-3">
@@ -42,7 +42,7 @@
           </h1>
 
           <button
-            class="bg-indigo-900 px-7 py-3 rounded-full text-xl shadow-xl hover:bg-indigo-700"
+            class="bg-indigo-900 px-7 py-3 transition rounded-full text-xl shadow-xl hover:bg-indigo-700"
           >
             join : programming shikbo team
             <svg
@@ -68,5 +68,135 @@
       </div>
     </header>
     <!-- header end -->
+    <!-- main section 1 start -->
+    <main class="container mx-auto">
+      <section class="my-24">
+        <h2 class="text-xl text-center text-white mb-12">Our Service</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div
+            class="bg-gray-800 p-8 rounded-xl text-center border-4 border-gray-800 hover:border-indigo-800 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="/src/image/frontEnd.png" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-8 my-5">
+              Front End Development
+            </h4>
+            <p class="text-white text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Harum,nobis.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-xl text-center border-4 border-gray-800 hover:border-indigo-800 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="/src/image/frontEnd.png" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-8 my-5">
+              Back End Development
+            </h4>
+            <p class="text-white text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Harum,nobis.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-xl text-center border-4 border-gray-800 hover:border-indigo-800 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="/src/image/frontEnd.png" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-8 my-5">
+              JavaScript Complete Course
+            </h4>
+            <p class="text-white text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Harum,nobis.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-xl text-center border-4 border-gray-800 hover:border-indigo-800 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="/src/image/frontEnd.png" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-8 my-5">
+              Next.Js Complete Course
+            </h4>
+            <p class="text-white text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Harum,nobis.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-xl text-center border-4 border-gray-800 hover:border-indigo-800 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="/src/image/frontEnd.png" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-8 my-5">
+              React.Js Complete Course
+            </h4>
+            <p class="text-white text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Harum,nobis.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-xl text-center border-4 border-gray-800 hover:border-indigo-800 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="/src/image/frontEnd.png" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-8 my-5">
+              MongoDB for Your Database
+            </h4>
+            <p class="text-white text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Harum,nobis.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- section 1 end -->
+      <!-- section 2 start -->
+      <section class="bg-slate-900 py-12 md:py-48 grid place-content-center text-center mb-24">
+        <div class="md:flex justify-center items-center text-white gap-5 sm:gap-8 md:gap-12 md:gap-x-48">
+          <div class="text-lg sm:text-xl md:text-4xl">
+            <p class="text-yellow-600 mb-10 animate-bounce">My Clients</p>
+            <h2>
+              My Take care of <br> more <span class="underline decoration-orange-600 underline-offset-8">than 500k</span> <br> Customers</span>
+            </h2>
+          </div>
+          <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-8 md:gap-12">
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-01.png" alt="">
+                <h3>One Pluse</h3>
+             </div>
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-02.png" alt="">
+                <h3>Tencent</h3>
+             </div>
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-03.png" alt="">
+                <h3>Apple</h3>
+             </div>
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-04.png" alt="">
+                <h3>Microsoft</h3>
+             </div>
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-05.png" alt="">
+                <h3>Lenovo</h3>
+             </div>
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-06.png" alt="">
+                <h3>Huawei</h3>
+             </div>
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-07.png" alt="">
+                <h3>Nexus</h3>
+             </div>
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-08.png" alt="">
+                <h3>Tesla</h3>
+             </div>
+             <div class="my-3 sm:my-0 border-t sm:border-t-0 pt-4 sm:pt-0">
+                <img src="/src/image/client-09.png" alt="">
+                <h3>Brave</h3>
+             </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
